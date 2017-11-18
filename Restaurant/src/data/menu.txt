@@ -1,0 +1,5 @@
+#Menu Price
+Salad;100.0
+Pork Steak;300.0
+Beef Steak;450.0
+Ice tea;20.0
