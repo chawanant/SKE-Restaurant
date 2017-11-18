@@ -6,7 +6,7 @@ public class RestaurantManager {
 private static	ArrayList<String> MenuItems = new ArrayList<>();
 private	static ArrayList<Double> Price = new ArrayList<>();
 public static void init(){
-	String filename ="src/data/Menu.txt";
+	String filename ="data/Menu.txt";
 	ClassLoader loader = RestaurantManager.class.getClassLoader();
 	InputStream in = loader.getResourceAsStream(filename);
 	if (in == null) {
