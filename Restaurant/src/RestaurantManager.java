@@ -1,6 +1,13 @@
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
+/**
+ * The Restaurant Manager provides services of the
+ * restaurant, including access to the menu and prices,
+ * and receiving orders. It records orders to a file.
+ *
+ * @author Chawanant Kerdchuen
+ */
 
 public class RestaurantManager {
 private static	ArrayList<String> MenuItems = new ArrayList<>();
